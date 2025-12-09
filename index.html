@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Özel Discord Bot Hizmeti | vaxo9999</title>
+    <title>Vaxo9999 | Özel Discord Bot Hizmeti</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,8 +14,8 @@
             text-align: center;
         }
         .container {
-            max-width: 600px;
-            margin: 80px auto;
+            max-width: 850px;
+            margin: 40px auto;
             padding: 30px;
             background-color: #ffffff;
             border-radius: 10px;
@@ -23,67 +23,110 @@
         }
         h1 {
             color: #7289da; /* Discord mavisi */
-            margin-bottom: 20px;
-            font-size: 28px;
+            margin-bottom: 5px;
+            font-size: 32px;
+        }
+        p.desc {
+            margin-bottom: 40px;
+            color: #666;
         }
         h2 {
-            color: #2c2f33;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
             margin-top: 30px;
+            color: #2c2f33;
         }
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 20px 0;
+        .bot-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .feature-card {
+            width: 28%; /* 3 kart yan yana sığması için */
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
             text-align: left;
         }
-        ul li {
-            background: #eee;
-            margin-bottom: 8px;
-            padding: 10px;
-            border-radius: 5px;
+        .feature-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
         }
-        .cta-button {
+        .feature-card h3 {
+            color: #7289da;
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        .feature-card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .cta-link {
             display: inline-block;
             padding: 12px 25px;
             margin-top: 20px;
             background-color: #7289da;
             color: white;
             text-decoration: none;
-            border: none;
             border-radius: 5px;
             font-size: 18px;
-            cursor: pointer;
             transition: background-color 0.3s;
         }
-        .cta-button:hover {
+        .cta-link:hover {
             background-color: #677bc4;
         }
         .cta-text {
-            font-size: 15px;
+            font-size: 16px;
             color: #555;
             margin-top: 25px;
             line-height: 1.6;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .feature-card {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Vaxo9999 Özel Discord Bot Hizmeti</h1>
-        <p>İhtiyaçlarınıza özel, yüksek performanslı ve güvenilir Discord botları geliştiriyorum.</p>
+        <h1>Vaxo9999 | Özel Discord Bot Hizmeti</h1>
+        <p class="desc">Sunucunuza özel, etkileşimli ve güvenilir Discord botları ile topluluğunuzu bir üst seviyeye taşıyın! İhtiyaçlarınıza özel sunumlar!!</p>
         
-        <hr>
+        <h2>Öne Çıkan Bot Özellikleri</h2>
 
-        <h2>Örnek Bot: Gelişmiş Moderasyon ve Eğlence</h2>
-        <p>Botunuzun sunucuya katılım, mesajlaşma ve moderasyon gibi temel ihtiyaçlarını karşılayacak temel özellikleri aşağıdadır:</p>
+        <div class="bot-features">
+            
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300x150?text=Moderasyon+Görseli" alt="Moderasyon Botu Ekran Görüntüsü">
+                <h3>Gelişmiş Moderasyon</h3>
+                <p>Küfür, reklam ve spam filtreleme, yasaklama ve uyarı sistemleri ile sunucunuzu otomatik olarak korur.</p>
+            </div>
 
-        <ul>
-            <li>**Özellik 1:** Otomatik Moderasyon (Reklam/Küfür filtreleme)</li>
-            <li>**Özellik 2:** Kullanıcıya özel Ekonomi ve Seviye (  Kumar) sistemi</li>
-            <li>**Özellik 3:** Kullanımı kolay bilet (Ticket) sistemi</li>
-            <li>**Özellik 4:** Loglar ve Bircok seyı</li>
-        </ul>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300x150?text=Ekonomi+Görseli" alt="Ekonomi Botu Ekran Görüntüsü">
+                <h3>Ekonomi ve Kumar Sistemi</h3>
+                <p>Kullanıcılar arası ticaret, para kazanma, kumar oyunları (slot vb.) ve liderlik tablosu.</p>
+            </div>
 
-        <a href="**https://discord.gg/hfrUYvAcAe**" class="cta-button">Destek Sunucusuna Git</a>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300x150?text=Ticket+Log+Görseli" alt="Ticket ve Loglama Ekran Görüntüsü">
+                <h3>Ticket ve Detaylı Loglama</h3>
+                <p>Kullanımı kolay bilet sistemi, sunucudaki tüm hareketlerin (katılma, ayrılma, silinen mesaj) detaylı kaydı.</p>
+            </div>
+
+        </div>
+
+        <a href="https://discord.gg/hfrUYvAcAe" class="cta-link" target="_blank">Discord Destek Sunucusuna Katıl</a>
         
         <p class="cta-text">
             **Butona tıklayarak Discord Sunucusu üzerinden destek açarak detaylı konuşarak ve fiyat vb. konuları netleştiririz.**
